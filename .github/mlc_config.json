@@ -1,0 +1,28 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^http(s)?://(127\\.0\\.0\\.1|localhost|169\\.254|192\\.168|10\\.)" },
+    { "pattern": "^http(s)?://target\\.tld" },
+    { "pattern": "^http(s)?://attacker\\.tld" },
+    { "pattern": "^http(s)?://internal\\.intranet\\.tld" },
+    { "pattern": "^http(s)?://allowed\\.tld" },
+    { "pattern": "^http(s)?://evil\\.tld" },
+    { "pattern": "^http(s)?://[a-z0-9.-]*\\.target\\.tld" },
+    { "pattern": "^file://" },
+    { "pattern": "^gopher://" },
+    { "pattern": "^dict://" },
+    { "pattern": "^ldap://" },
+    { "pattern": "^php://" },
+    { "pattern": "^data:" },
+    { "pattern": "^jar:" },
+    { "pattern": "^netdoc:" },
+    { "pattern": "^expect:" },
+    { "pattern": "^phar:" },
+    { "pattern": "^zip:" },
+    { "pattern": "^javascript:" },
+    { "pattern": "^chrome-extension:" }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206, 301, 302, 403, 429]
+}
