@@ -1,14 +1,23 @@
-<h1 align="center">Payloads All The Things</h1>
+<h1 align="center">AppSec Payload Notes</h1>
 
 <p align="center">
-  A list of useful payloads and bypasses for Web Application Security.<br>
-  Feel free to improve with your payloads and techniques.
+  Web application security payloads, bypasses, and methodology notes —<br>
+  written from my own bug bounty and penetration testing practice.
 </p>
 
 <p align="center">
-  <b>Author:</b> Marco Selva<br>
-  <b>License:</b> MIT
+  <b>Maintainer:</b> Marco Selva &nbsp;·&nbsp; <b>License:</b> MIT
 </p>
+
+---
+
+> **ATTRIBUTION**
+> The category taxonomy used here is modelled on
+> [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) (MIT, © 2019 Swissky),
+> the reference collection in this space.
+> **This repository is not a fork of it and does not reproduce its contents** — every note here is
+> written from scratch and is far narrower in scope (30 categories, ~160 KB against its ~23 MB).
+> If you want the exhaustive, community-maintained reference, go there first.
 
 ---
 
@@ -103,6 +112,7 @@ The goal is to keep payloads concise, categorized, and free of malicious intent.
 
 ## References and Inspiration
 
+- [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) — the category taxonomy this repository follows
 - OWASP Web Security Testing Guide (WSTG)
 - OWASP Top 10
 - PortSwigger Web Security Academy
@@ -113,5 +123,6 @@ The goal is to keep payloads concise, categorized, and free of malicious intent.
 ---
 
 <p align="center">
-  Made with discipline by <b>Marco Selva</b> · <a href="./LICENSE">MIT License</a>
+  Notes by <b>Marco Selva</b> · <a href="./LICENSE">MIT License</a><br>
+  <sub>Structure after <a href="https://github.com/swisskyrepo/PayloadsAllTheThings">swisskyrepo/PayloadsAllTheThings</a> — not affiliated, not a fork.</sub>
 </p>
