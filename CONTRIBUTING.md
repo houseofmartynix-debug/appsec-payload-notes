@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thanks for your interest in improving **PayloadsAllTheThings** by Marco Selva!
+Thanks for your interest in improving **AppSec Payload Notes**!
 
 ## Scope
 
